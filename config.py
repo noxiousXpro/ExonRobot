@@ -12,7 +12,7 @@ class Config(object):
     API_HASH = getenv("API_HASH", None)
     ARQ_API_KEY = "PMPTTD-HOMLMF-SRBHNH-RZMWXL-ARQ"
     SPAMWATCH_API = None
-    TOKEN = getenv("TOKEN", None)
+    TOKEN = getenv("TOKEN", 7090415113:AAH2QcjJEzUO0irZFlPStqoChaxuLjKEZUk)
     OWNER_ID = int(getenv("OWNER_ID", "5154912723"))
     OWNER_USERNAME = getenv("OWNER_USERNAME", "NoxiousXpro")
     SUPPORT_CHAT = getenv("SUPPORT_CHAT", "NoxBots")
