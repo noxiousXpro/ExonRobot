@@ -23,7 +23,7 @@ class Config(object):
     )
     DB_NAME = getenv("DB_NAME", "ExonRobot")
     REDIS_URL = "redis://default:wK6ZCiclq4iQKYpgfY90v6kd6WdPfEwl@redis-10186.c263.us-east-1-2.ec2.cloud.redislabs.com:10186/default"
-    DATABASE_URL = getenv("DATABASE_URL", None)
+    DATABASE_URL = getenv("DATABASE_URL", "postgres://vclbbvrjisjgya:1207ab4baec3bd461c7eaa13508ef3ef7c3eabf95392089fc3732fc6ec79d212@ec2-44-214-201-69.compute-1.amazonaws.com:5432/d7fmvsj5urnf9n")
 
     # ɴᴏ ᴇᴅɪᴛ ᴢᴏɴᴇ
     if DATABASE_URL.startswith("postgres://"):
