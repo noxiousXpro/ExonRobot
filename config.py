@@ -25,10 +25,6 @@ class Config(object):
     REDIS_URL = "redis://default:wK6ZCiclq4iQKYpgfY90v6kd6WdPfEwl@redis-10186.c263.us-east-1-2.ec2.cloud.redislabs.com:10186/default"
     DATABASE_URL = getenv("DATABASE_URL", None)
 
-    # ɴᴏ ᴇᴅɪᴛ ᴢᴏɴᴇ
-    if DATABASE_URL.startswith("postgres://"):
-        DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://")
-
 
 class Production(Config):
     LOGGER = True
