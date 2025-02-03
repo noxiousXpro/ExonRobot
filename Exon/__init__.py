@@ -11,7 +11,7 @@ from sys import exit as sysexit
 from traceback import format_exc
 
 import spamwatch
-import telegram.ext as tg
+import telegram as tg
 from Python_ARQ import ARQ
 from Abg import patch  # types : ignore
 from aiohttp import ClientSession
